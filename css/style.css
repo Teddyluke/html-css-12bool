@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.container {
+  background-color: pink
+}
+
+.col-1, .col-2, .col-6, .col-8, .col-12 {
+  height: 150px;
+  border: 1px solid black;
+  line-height: 150px;
+  vertical-align: middle;
+}
+
+.nestedwrap {
+  margin: 2px;
+}
+
+.nestedwrap > .col-2, .nestedwrap > .col-6, .nestedwrap > .col-8 {
+  height: 144px;
+  border: 1px solid white;
+  line-height: 144px;
+  vertical-align: middle;
+  background-color: salmon;
+}
